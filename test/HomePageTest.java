@@ -2,7 +2,6 @@ package com.pom.test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.pom.base.BaseClass;
 import com.pom.pages.HomePage;
 import com.pom.pages.LoginPage;
