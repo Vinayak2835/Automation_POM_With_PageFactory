@@ -5,14 +5,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
 import com.pom.pages.LoginPage;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
-  public static WebDriver driver;
-  public LoginPage loginPage;
+    public static WebDriver driver;
+    public LoginPage loginPage;
   
   @BeforeMethod
   public void setup() {
@@ -27,12 +25,7 @@ public class BaseClass {
   @AfterMethod
   public void tearDown() {
 	  driver.close();
-  }
-	
-	
-	
-	
-	//public static void main(String[] args) {
+  }           //public static void main(String[] args) {
 		//BaseClass base = new BaseClass();
 		//base.setUp();
 		//base.setDown();
